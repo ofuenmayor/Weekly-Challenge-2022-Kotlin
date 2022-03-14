@@ -1,0 +1,32 @@
+{
+  "name": "weekly-challenge-2022-kotlin",
+  "version": "1.0.0",
+  "description": "![https://mouredev.com/discord](https://github.com/mouredev/mouredev/blob/master/mouredev_weekly_challenge.png)",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc",
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'test/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofuenmayor/Weekly-Challenge-2022-Kotlin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ofuenmayor/Weekly-Challenge-2022-Kotlin/issues"
+  },
+  "homepage": "https://github.com/ofuenmayor/Weekly-Challenge-2022-Kotlin#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "eslint-config-airbnb": "^19.0.4",
+    "moka": "^0.2.0",
+    "node-ts": "^5.1.2",
+    "ts-node": "^10.7.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.1.0"
+  }
+}
