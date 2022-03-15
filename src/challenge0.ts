@@ -17,5 +17,23 @@
  *
  */
 
+export function fizzBuzzer(array: any[]): (number|string)[]{
+	let result:(number|string)[] = [];
+	 array.forEach(number => {
+		 result.push(converterFizzerBuzzer(number));
+	});
+	return result;
+}
+
+function converterFizzerBuzzer(element:number):(number|string){
+	if(element%15 == 0){
+		return 'fizz buzz';
+	}else if(element%5 == 0){
+		return 'buzz';
+	}else if(element%3 == 0){
+		return 'fizz';
+	}
+	return element;
+}
 
 
